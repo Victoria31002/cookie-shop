@@ -60,6 +60,11 @@ body {
     text-align: center;
 }
 
+.main{
+    position: relative;
+    overflow: hidden;
+}
+
 .header {
     padding: 40px 0;
 }
@@ -128,6 +133,7 @@ body {
 
 .products {
     padding: 100px 0;
+    position: relative;
 }
 
 .products-items {
@@ -224,9 +230,10 @@ body {
 
 .order {
     padding-bottom: 102px;
+    position: relative;
 }
 
-.order .container{
+.order .container {
     position: relative;
 }
 
@@ -284,28 +291,49 @@ body {
     margin-left: 109px;
 }
 
-.order-image{
+.order-image {
     height: 559px;
     top: -58px;
     position: relative;
 }
 
-.order-bg-image{
+.order-bg-image {
     position: absolute;
     top: 0;
     right: calc(100% - 810px);
     z-index: -1;
 }
 
-.footer{
+.footer {
     padding: 126px 0 50px 0;
     text-align: center;
 }
 
-.rights{
+.rights {
     margin-top: 14px;
     font-size: 18px;
     line-height: 130%;
+}
+
+.line1 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: calc(100% - 960px);
+}
+
+.line2 {
+    position: absolute;
+    z-index: -1;
+    top: -40px;
+    left: 0;
+}
+
+.line3 {
+    position: absolute;
+    z-index: -1;
+    top: -920px;
+    left: 0;
 }
 
 
